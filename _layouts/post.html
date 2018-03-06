@@ -13,6 +13,10 @@ layout: default
   </header>
 
   <section class="post">
+    {% if page.p5_sketch %}
+	  <script src='/javascripts/{{ js_file }}.js' type="text/javascript"></script>
+	  <body></body>
+	{% endif %}
     {{ content }}
   </section>
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
