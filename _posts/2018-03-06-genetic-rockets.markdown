@@ -14,4 +14,6 @@ p5_sketch:
 - SmartRockets/sketch
 ---
 
-Testing p5js in Jekyll. Test
+Generation Speed
+
+This simulates a population of rockets with individual genomes. Genomes consist of a series of force vectors applied to the rocket at each frame. Rockets that get near the target have a fitness bonus, and rockets that reach the target even more so.
