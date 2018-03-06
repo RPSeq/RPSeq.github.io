@@ -30,8 +30,9 @@ function setup() {
 
   // create sliders
   frameSlider = createSlider(0, 100, 0);
-  frameSlider.position(20, 20);
 
+  //frameSlider.position(20, 20);
+  frameSlider.parent('sketch');
 }
 
 function draw() {
