@@ -22,7 +22,7 @@ var rw = 400;
 var rh = 10;
 
 function setup() {
-  var myCanvas = createCanvas(displayWidth / 1.5 , displayHeight / 4);
+  var myCanvas = createCanvas(800, 600);
   myCanvas.parent('sketch');
   population = new Population();
   lifeP = createP();
