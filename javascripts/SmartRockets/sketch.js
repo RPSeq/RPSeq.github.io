@@ -26,13 +26,14 @@ function setup() {
   myCanvas.parent('sketch');
   population = new Population();
   lifeP = createP();
+  lifeP.parent('sketch')
   target = createVector(width / 2, 50);
 
   // create sliders
   frameSlider = createSlider(0, 100, 0);
 
   frameSlider.parent('sketch');
-  frameSlider.position(400, 500);
+  //frameSlider.position(400, 500);
 }
 
 function draw() {
@@ -57,7 +58,7 @@ function draw() {
   }
 
   // Displays count to window
-  //lifeP.html(count);
+  lifeP.html(count);
 
 
   if (count >= lifespan || ended) {
