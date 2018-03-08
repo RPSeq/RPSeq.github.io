@@ -57,7 +57,7 @@ function draw() {
   }
 
   // Displays count to window
-  lifeP.html(count);
+  //lifeP.html(count);
 
 
   if (count >= lifespan || ended) {
