@@ -14,6 +14,5 @@ p5_sketch:
 - SmartRockets/sketch
 ---
 
-Generation Speed
 
 This simulates a population of rockets with individual genomes. Genomes consist of a series of force vectors applied to the rocket at each frame. Rockets that get near the target have a fitness bonus, and rockets that reach the target even more so. This was mostly an exercise to learn JavaScript, as well as learning how to embed JavaScript apps in Jekyll blog posts. Work in progress. (Updated 3-14-2018)
